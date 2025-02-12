@@ -1,30 +1,24 @@
 baseURL = "https://ws.0000cd.com/" #你的网址,以斜杠 / 结尾
 languageCode = "zh-CN"
-title = "狼牌网址导航 - 狼集 Wolf Set" #网站名称
+title = "游侠客" #网站名称
 theme = "bluf"
 
 [params]
-  pagename = "狼集 Wolf Set" #首页标题
-  description = " 狼集 Wolf Set, 源自“狼牌工作网址导航”，集设计、Markdown、软件、安全、办公必备网址于一体，All in One 最佳选择。" #SEO，你的网站描述
+  pagename = "游侠客" #首页标题
+  description = " 鲜花怒马少年时，一日看尽长安花。" #SEO，你的网站描述
   keywords = [
-  "狼集",
-  "Wolf Set",
-  "狼牌",
-  "狼牌工作网址导航",
-  "网址大全",
-  "网址之家",
-  "网址导航",
-  "设计工具",
-  "Markdown资源",
-  "办公软件",
-  "安全工具",
-  "All in One"
+  "epub",
+  "小说",
+  "网文",
+  "出版书",
+  "推理",
+  "科幻"
 ] #SEO，网站关键词
-  author = "0000CD.COM & 逊狼" #SEO，网站作者
-  alias ="狼牌网址导航" #SEO，可删除
+  author = "游侠客" #SEO，网站作者
+  alias ="再见少年拉满弓，不惧岁月不惧风。" #SEO，可删除
   license="CC BY-NC 4.0" #网站授权信息，https://chooser-beta.creativecommons.org/
 
-  enableUmami = true #umami 统计相关，没有请 false，https://umami.is/
+  enableUmami = false #umami 统计相关，没有请 false，https://umami.is/
   UmamiLink = "https://eu.umami.is/script.js"
   UmamiID = "02cc419c-d758-4a4f-a9bd-1e442b1f8435"
 
@@ -34,18 +28,18 @@ theme = "bluf"
   gallery = true #启用画廊模式
 
   greetings = [
-    "你好朋友，你好世界 🎉",
-    "嗷~ 记得早点休息 🌛",
-    "互联网第一条消息是 LO 💡",
-    "互联网重量或是一颗草莓 💡",
-    "互联网第一个表情是:-) 💡",
-    "Ctrl+F 搜索本站 🔎",
-    "Ctrl+D 收藏本站 ⭐",
-    "点击【标签】，筛选内容 🔖",
-    "点击 ●，切换深浅配色 🐼",
+    "与卿再世相逢日，玉树临风一少年",
+    "少年不惧岁月长，彼方尚有荣光在",
+    "新丰美酒斗十千，咸阳游侠多少年",
+    "相逢意气为君饮，系马高楼垂柳边",
+    "犀渠玉剑良家子，白马金羁侠少年",
+    "须知少年凌云志，曾许人间第一流",
+    "你生来应为高山，而非草莽",
+    "第一次遇见你 像微风 像暖阳 像少女梦",
+    "剑未佩妥，出门已是江湖；千帆过尽，归来仍是少年",
 ] #访客随机问候，为空不启用
   mobileGreetings = [
-    "推荐电脑访问，体验更佳 💻",
+    "推荐电脑访问，体验更佳",
 ] #移动端访客随机问候，为空使用 greetings
 
 confettiEmojis = [ '🥟', '🍜', '🍊', '🧧', '🧨', '🏮', '🎉', '🐺' ] # 清除筛选时撒花，为空不启用
